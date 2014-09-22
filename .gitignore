@@ -1,0 +1,16 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+lexablog/wp-config.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/files_local
+sites/*/private
+source
+.idea/
+.idea/workspace.xml
+phpMyAdmin
+backups
+lexablog/wp-config.php
+lexablog/wp-content/uploads
+/lexablog/wp-config.php
